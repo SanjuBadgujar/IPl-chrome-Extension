@@ -1,0 +1,88 @@
+
+  body {
+    min-width: 500px;
+    font-family: 'Cambria', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background: linear-gradient(to right bottom, #d5075d, #19024e);
+    margin: 10px;
+    padding: 20px; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .glass-card {
+    animation: scaleIn 1s ease-in-out;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(1rem);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+  }
+  
+  #ipl-score {
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  #ipl-score .team {
+    animation: pulse 2s ease-in-out infinite;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #ipl-score .status {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #ipl-score .score {
+    align-items: center;
+    font-size: 18px;
+  }
+  
+ 
