@@ -8,4 +8,5 @@ Steps to run the extension(Locally):
 3.Switch to development mode in the extensions tab.
 Unpack the folder cloned.
 Thats it,now run the extension on any of your tabs.
-![image](https://github.com/SanjuBadgujar/IPl-chrome-Extension/assets/136180142/9d773551-3032-44a6-97aa-fa71704c425e)
+![image](https://github.com/SanjuBadgujar/IPl-chrome-Extension/assets/136180142/af81bbc5-4bc0-4aff-98e0-2a36c6d53db0)
+
