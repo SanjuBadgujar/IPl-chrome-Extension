@@ -9,6 +9,6 @@ Steps to run the extension(Locally):
 Unpack the folder cloned.Thats it,now run the extension on any of your tabs.
 
 
-![image](https://github.com/SanjuBadgujar/IPl-chrome-Extension/assets/136180142/42d3b1db-9b62-44e0-8bea-e7205d858442)
+![image](https://github.com/SanjuBadgujar/IPl-chrome-Extension/assets/136180142/d8b7c294-a51b-444c-ae70-9526f7c23c80)
 
 
