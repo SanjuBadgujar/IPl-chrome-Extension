@@ -1,0 +1,12 @@
+{
+    "name":"My chrome Extension ",
+    "version":"1.0.0",
+    "description":"Best extension in the World",
+    "manifest_version":3,
+    "author":"Sanjana Badgujar",
+    
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"My Chrome Extension"
+    }
+}
